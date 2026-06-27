@@ -83,3 +83,11 @@ BVxxxxxxxxxx
 ```
 
 没有字幕的视频不会自动转写，也不会调用音频识别工具。
+
+## 参考
+
+本项目参考了以下仓库中使用 Python + yt-dlp 获取 B 站字幕的思路：
+
+- [uraraneko/bili-transcript](https://github.com/uraraneko/bili-transcript)
+
+本项目没有包含音频下载、ffmpeg、faster-whisper、AI 转写、批量处理或翻译功能。
